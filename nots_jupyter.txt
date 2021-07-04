@@ -1,0 +1,32 @@
+Jupiter Prompt:
+jupyter notebook - uruchamia jupitera
+jupyter notebook --generate-config - generuje plik konfiguracyjny dla JN
+
+skrót w menu Start do aplikacji Jupyter Notebook będzie uruchamiać nadal starą lokalizację, chyba że zmodyfikujemy te skróty: w properties usunąć ze ścieżki %USERPROFILE%
+
+
+Jupiter Notebook:
+-tryb edycji:
+	Shift + Enter: uruchamia komórkę
+	Esc: 	wyjście z trybu edycji i przejście do tryby komend
+	Ctrl + Shift + -: podziel komórkę w lini, gdzie edytujesz
+	Shift + Tab: pokaż help dla metody
+	Shift + Tab + Tab: pokaż i rozwiń help dla metody
+	shift + 3x Tab: pokaż pełną dokumentację metody
+
+-tryb komend:
+	Enter:	wejście do trybu edycji
+	b:	tworzy nową linijkę od below
+	a:	-- || -- above
+	dd:	usuwa linijkę
+	m:	zmiana komórki na komórkę typu markdown (taki jak np. pliki README.md)
+	y:	zmiana komórki na komórkę typu code (wykonywanej)
+	x:	wycięcie linijki
+	v:	wklejenie linijki poniżej tej, w której jesteśmy
+	Shift + M:	połącz tą i następną komórkę, od merge
+	o:	chowa/ukrywa output
+	l:	pokaż numery linii w komórce
+	Shift + L:	pokaż numery linii we wszystkich komórkach
+	Ctrl + Shift + F:	przeszukuj wszystkie skróty klawiaturowe
+	h:	przeglądaj wszystkie skróty klawiaturowe
+	
